@@ -1,0 +1,8 @@
+<div class="info_container"  *ngFor="let i of images" >
+<h1>{{i.title}}</h1>
+   <img id="info_imagem" [attr.src]="i.url" style="height: 100px; width: 100px;justify-content: center;"/>
+</div>
+
+<pre>
+  {{images | json}}
+</pre>

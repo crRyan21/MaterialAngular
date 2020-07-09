@@ -1,0 +1,14 @@
+table{
+    width: 100%
+}
+table thead{
+    background-color: rgb(3, 68, 68);
+}
+table td{
+    header: 1px solid;
+    color: white;
+    text-align: center;
+}
+table tr{
+    background-color: rgb(114, 114, 114);
+}
